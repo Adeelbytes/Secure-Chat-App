@@ -1,0 +1,14 @@
+{
+  "name": "secure-messaging-scripts",
+  "version": "1.0.0",
+  "description": "Testing and demonstration scripts for the Secure Messaging System",
+  "type": "commonjs",
+  "scripts": {
+    "verify": "node crypto-verification.js",
+    "mitm-demo": "node mitm-attack-demo.js",
+    "replay-demo": "node replay-attack-demo.js",
+    "all-tests": "npm run verify && npm run mitm-demo && npm run replay-demo"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
